@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+.landing-section {
+    background-color: rgb(61, 42, 3);
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
