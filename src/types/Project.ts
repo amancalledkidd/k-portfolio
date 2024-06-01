@@ -6,6 +6,7 @@ type Project = {
     github_url: string;
     live_url: string;
     tech_stack: string[];
+    type: string;
     };
 
 export default Project;
