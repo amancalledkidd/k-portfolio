@@ -8,6 +8,7 @@
     padding: 1rem 2rem;
     background-color: $clr-primary;
     color: $clr-font;
+    align-items: center; // Align items vertically
 
     &__links {
         display: flex;
@@ -15,9 +16,46 @@
         align-items: center;
         text-align: right;
         gap: 2rem;
-        
+
         a {
             text-decoration: none;
+        }
+
+        // Hide links by default on mobile
+        @media (max-width: 768px) {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px; // Adjust as needed
+            right: 0;
+            background-color: $clr-primary;
+            width: 100%;
+            text-align: center;
+
+            &--open {
+                display: flex;
+            }
+
+            a {
+                padding: 1rem;
+                width: 100%;
+                text-align: center;
+                border-bottom: 1px solid $clr-font;
+            }
+        }
+    }
+
+    &__dropdown-icon {
+        display: none;
+        cursor: pointer;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        img {
+            width: 30px; // Adjust size as needed
+            height: auto;
         }
     }
 }
