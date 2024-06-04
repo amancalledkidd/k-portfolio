@@ -1,0 +1,95 @@
+@import 'src/styles/variables.scss';
+
+.project-section {
+    background-color: $clr-primary;
+    color: $clr-font;
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: 2rem 0;
+
+    &__header {
+        position: relative;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        @media screen and (max-width: 768px) {
+            position: static;
+            
+        }
+
+        &__title {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            z-index: 2;  
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 3px;
+            padding: 1rem;
+
+            @media screen and (max-width: 1300px) {
+                top: 50%;
+                left: 22%;
+            }
+
+            @media screen and (max-width: 1155px) {
+                top: 50%;
+                left: 25%;
+            }
+
+            @media screen and (max-width: 1024px) {
+                top: 50%;
+                left: 28%;
+            }
+
+            @media screen and (max-width: 915px) {
+                top: 50%;
+                left: 33%;
+            }
+
+            @media screen and (max-width: 768px) {
+                position: static;
+                transform: none;
+            }
+        }
+
+        &__img {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            z-index: 1; 
+
+            @media screen and (max-width: 1300px) {
+                top: 50%;
+                left: 22%;
+            }
+            
+
+            @media screen and (max-width: 1155px) {
+                top: 50%;
+                left: 25%;
+            }
+
+            @media screen and (max-width: 1024px) {
+                top: 50%;
+                left: 30%;
+            }
+
+            @media screen and (max-width: 915px) {
+                top: 50%;
+                left: 33%;
+            }
+
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+
+        }
+    }
+}
