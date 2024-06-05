@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+
+.button {
+  color: $clr-font;
+  min-width: 5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  border: 0.125rem solid $clr-font;
+}
