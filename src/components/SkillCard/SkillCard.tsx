@@ -5,13 +5,13 @@ type SkillCardProps = {
     skill: Skill;
 }
 
-const SkillCard = ({ skill }:SkillCardProps) => {
+const SkillCard = ({ skill }: SkillCardProps) => {
     return (
         <div className='skill-card'>
-            <img className='skill-card__img' src={skill.image} />
+            <img className='skill-card__image' src={skill.image} alt={`${skill.name} logo`} />
             <h3 className='skill-card__title'>{skill.name}</h3>
         </div>
     )
 }
 
-export default SkillCard
+export default SkillCard;
