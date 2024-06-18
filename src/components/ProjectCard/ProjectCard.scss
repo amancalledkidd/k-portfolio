@@ -55,8 +55,10 @@
 
     &__buttons {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         padding: 20px;
+        gap: 5px;
 
         button {
             font-size: 1rem;
