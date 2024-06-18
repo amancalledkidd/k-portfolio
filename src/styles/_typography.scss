@@ -1,14 +1,14 @@
 @use "./variables" as *;
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 /* here we use rem for font-size 
  * rem is relative to the :root element in the dom (html tag)
  * we can manipulate the :root element's font-size at different breakpoints to scale up the font-size application-wide */
 
 * {
-  font-family: 'Sedgwick Ave', cursive;
-  color: $clr-black;
+  font-family: 'Gothic A1', sans-serif;
+  color: $clr-font;
 }
 
 h1,
@@ -24,7 +24,7 @@ p {
 
 p {
   font-size: 1.125rem;
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Gothic A1', sans-serif;
 }
 
 button {
@@ -34,10 +34,12 @@ button {
 
 h1 {
   font-size: 2.25rem;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 h3 {
@@ -53,7 +55,7 @@ h2,
 h3,
 h4 {
   font-weight: bold;
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Gothic A1', sans-serif;
 }
 
 
