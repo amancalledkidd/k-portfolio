@@ -1,7 +1,7 @@
 /// <reference types="vite-plugin-svgr/client" />
 import './LandingSection.scss'
-import SkillList from '../SkillsList/SkillsList';
 import HexLattice from '../../assets/images/HEXAGONAL LATTICE Landing.svg?react';
+import SkillsCarousel from '../SkillsCarousel/SkillsCarousel';
 
 const LandingSection = () => {
     return (
@@ -14,7 +14,7 @@ const LandingSection = () => {
                 <p className='landing-section__info__dev-role'>JUNIOR SOFTWARE ENGINEER</p>
             </div>
             <div className='landing-section__tech-stack'>
-                <SkillList />
+                <SkillsCarousel />
             </div>
         </div>
     );

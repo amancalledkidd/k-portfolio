@@ -9,31 +9,51 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 1rem;
     position: relative;
+    overflow: hidden;
+    
 
     &__img {
         object-fit: cover;
         position: absolute;
-        top: 5%;
-        left: 1%;
+        top: 2%;
+        left: 4%;
         transform: scale(1.1);
         transform-origin: top left;
 
-        @media (max-width: 1440px) {
-            transform: scale(0.9);
-            top: 5%;
-            left: 1%;
+        @media (max-width: 1605px) {
+            transform: scale(0.95);
+            left: 4%;
+        }
+
+        @media (max-width: 1450px) {
+            left: 2%;
+        }
+
+        @media (max-width: 1145px) {
+            transform: scale(0.91);
+            left: 2%;
         }
 
         @media (max-width: 1024px) {
-            transform: scale(0.9);
+            transform: scale(0.85);
+            left: 5%;
             top: 5%;
-            left: 1%;
         }
 
         @media (max-width: 870px) {
             display: none; // Hide the image on tablets and smaller devices
         }
+
+        @media (max-height: 795px) {
+            top: 0;
+        }
+        @media (max-height: 765px) {
+            transform: scale(0.7);
+            left: 5%;
+        }
+
     }
     
     &__info {
@@ -43,11 +63,12 @@
         flex-direction: column;
         padding: 1rem;
         margin-bottom: 100px;
+        
 
         &__dev-name {
             font-weight: 700;
             letter-spacing: 5px;
-            font-size: 9rem;
+            font-size: 8rem;
             margin: 0;
             text-align: center;
 
@@ -87,6 +108,11 @@
             font-size: 2rem;
             text-align: center;
 
+            @media (max-width: 1280px) {
+                font-size: 1.8rem;
+                letter-spacing: 5px;
+            }
+
             @media (max-width: 1024px) {
                 font-size: 1.5rem;
                 letter-spacing: 5px;
@@ -105,7 +131,7 @@
     }
 
     &__tech-stack {
-        height: 1px;
+        height: 80%;
         padding: auto;
 
         @media (max-width: 768px) {
