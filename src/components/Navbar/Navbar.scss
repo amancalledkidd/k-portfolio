@@ -1,14 +1,13 @@
 @import "../../styles/variables.scss";
 
 .navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
     display: flex;
     padding: 1rem 2rem;
     background-color: $clr-primary;
     color: $clr-font;
-    align-items: center; // Align items vertically
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1000; 
 
     &__links {
         display: flex;
