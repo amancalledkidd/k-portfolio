@@ -10,8 +10,8 @@ import html from "../assets/icons/html.png"
 import css from "../assets/icons/css.png"
 import scss from "../assets/icons/sass.png"
 import java from "../assets/icons/java.png"
-import c from "../assets/icons/C.png"
-import ruby from "../assets/icons/ruby.png"
+// import c from "../assets/icons/C.png"
+// import ruby from "../assets/icons/ruby.png"
 
 
 const Skills: Skill[] = [
@@ -92,20 +92,20 @@ const Skills: Skill[] = [
         image: java,
         url: "https://www.java.com/en/",
     },
-    {
-        id: 12,
-        name: "C",
-        description: "C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.",
-        image: c,
-        url: "https://devdocs.io/c/",
-    },
-    {
-        id: 13,
-        name: "Ruby",
-        description: "Ruby is an interpreted, high-level, general-purpose programming language.",
-        image: ruby,
-        url: "https://www.ruby-lang.org/en/",
-    }
+    // {
+    //     id: 12,
+    //     name: "C",
+    //     description: "C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.",
+    //     image: c,
+    //     url: "https://devdocs.io/c/",
+    // },
+    // {
+    //     id: 13,
+    //     name: "Ruby",
+    //     description: "Ruby is an interpreted, high-level, general-purpose programming language.",
+    //     image: ruby,
+    //     url: "https://www.ruby-lang.org/en/",
+    // }
     
 
 
