@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 
 const SkillsCarousel = () => {
     const [skillIndex, setSkillIndex]= useState<number>(0);
-    const [skillsToShow, setSkillsToShow] = useState<number>(11);
+    const [skillsToShow, setSkillsToShow] = useState<number>(12);
     const { width } = useScreenSize();
 
     
