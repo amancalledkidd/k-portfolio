@@ -5,7 +5,6 @@ import shootingarray from "../assets/images/ShootingArray 1.png";
 // import tickettracker from '../assets/images/TicketTracker.png'
 // import calculator from '../assets/images/Calculator.png'
 import verdeClientProject from '../assets/images/SkincareRMS 1.png'
-import greedyGoblins from '../assets/images/GreedyGoblins.png'
 import pythonfilmmanager from '../assets/images/python film manger1.png'
 import javaHangman from '../assets/images/java hangman 1.png'
 import javaSnap from '../assets/images/Javasnap 1.png'
@@ -68,7 +67,7 @@ const Projects: Project[] = [
         description: "A Java application of the card game Snap.",
         image: javaSnap,
         github_url: "https://github.com/amancalledkidd/snap",
-        live_url: "",
+        live_url:  "https://github.com/amancalledkidd/snap",
         tech_stack: ['Java'],
         type: "Backend"
     },
@@ -78,7 +77,7 @@ const Projects: Project[] = [
         description: "A full stack application for managing a film library.",
         image: fullStackFilmManager,
         github_url: "https://github.com/amancalledkidd/movie-manager",
-        live_url: "",
+        live_url: "https://github.com/amancalledkidd/movie-manager",
         tech_stack: ['React','Java','Spring Boot', 'typeScript', 'Sass', 'SQL'],
         type: "Full Stack"
     },
@@ -102,16 +101,16 @@ const Projects: Project[] = [
     //     tech_stack: ['React','TypeScript','Sass'],
     //     type: "Frontend"
     // },
-    {
-        id: 8,
-        name: "Greedy Goblins",
-        description: "A landing page for an NFT project.",
-        image: greedyGoblins,
-        github_url: "https://github.com/amancalledkidd/greedy-goblins",
-        live_url: "https://goblinsgreed.com/",
-        tech_stack: ['React','TypeScript','Sass'],
-        type: "Frontend"
-    },
+    // {
+    //     id: 8,
+    //     name: "Greedy Goblins",
+    //     description: "A landing page for an NFT project.",
+    //     image: greedyGoblins,
+    //     github_url: "https://github.com/amancalledkidd/greedy-goblins",
+    //     live_url: "https://goblinsgreed.com/",
+    //     tech_stack: ['React','TypeScript','Sass'],
+    //     type: "Frontend"
+    // },
     // {
     //     id: 8,
     //     name: "Calculator",
