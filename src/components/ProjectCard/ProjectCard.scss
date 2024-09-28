@@ -7,13 +7,15 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
-    border: 30px solid $clr-secondary;
+    padding: 20px;
+    border: 1px solid $clr-font;
     min-height: 400px;
-    background-color: #ffffff;
+    background-color: $clr-primary;
 
-    &:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
+    // &:hover {
+    //     // box-shadow: 0 6px 12px rgba(0, 0, 0, 5);
+        
+    // }
 
     &__image {
         width: 100%;
@@ -32,6 +34,7 @@
 
     &__content {
         padding: 20px;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -68,7 +71,8 @@
             transition: background-color 0.3s ease;
 
             &:hover {
-                background-color: #e0e0e0;
+                outline: 2px solid $clr-font;
+                outline-offset: 5px;
             }
         }
     }

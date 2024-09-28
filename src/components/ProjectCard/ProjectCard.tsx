@@ -15,9 +15,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         window.open(project.live_url, '_blank', 'noopener,noreferrer');
     }
     
-    const handleCodeClick = () => {
-        window.open(project.github_url, '_blank', 'noopener,noreferrer');
-    }
+    // const handleCodeClick = () => {
+    //     window.open(project.github_url, '_blank', 'noopener,noreferrer');
+    // }
     
 
 
@@ -31,9 +31,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
                 <p className="project-card__description">{project.description}</p>
             </div>
             <div className="project-card__buttons">
-                <div onClick={handleCodeClick}>
+                {/* <div onClick={handleCodeClick}>
                     <Button label="Code" />
-                </div>
+                </div> */}
                 <div onClick={handleLiveClick}>
                     <Button label="Preview" />
                 </div>
