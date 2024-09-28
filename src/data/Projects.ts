@@ -1,14 +1,15 @@
 import Project from "../types/Project";
-import flavourfinder from "../assets/images/flavourFinder.png";
-import shootingarray from "../assets/images/ShootingArray 1.png";
+// import flavourfinder from "../assets/images/flavourFinder.png";
+// import shootingarray from "../assets/images/ShootingArray 1.png";
 // import punkbeer from '../assets/images/PunkBeer.png'
 // import tickettracker from '../assets/images/TicketTracker.png'
 // import calculator from '../assets/images/Calculator.png'
 import verdeClientProject from '../assets/images/SkincareRMS 1.png'
 import pythonfilmmanager from '../assets/images/python film manger1.png'
 import javaHangman from '../assets/images/java hangman 1.png'
-import javaSnap from '../assets/images/Javasnap 1.png'
-import fullStackFilmManager from '../assets/images/javafilm 1.png'
+// import javaSnap from '../assets/images/Javasnap 1.png'
+// import fullStackFilmManager from '../assets/images/javafilm 1.png'
+import greedyGoblins from '../assets/images/GreedyGoblins.png'
 
 const Projects: Project[] = [
     {
@@ -21,16 +22,16 @@ const Projects: Project[] = [
         tech_stack: ['React','TypeScript','Sass'],
         type: "Frontend"
     },
-    {
-        id: 2,
-        name: "FlavourFinder",
-        description: "A recipe generator using the power of AI.",
-        image: flavourfinder,
-        github_url: "https://github.com/amancalledkidd/FlavourFinders",
-        live_url: "https://flavour-finder.onrender.com/",
-        tech_stack: ['React','JavaScript','Node.js', 'Express', 'MongoDB'],
-        type: "Full Stack"
-    },
+    // {
+    //     id: 2,
+    //     name: "FlavourFinder",
+    //     description: "A recipe generator using the power of AI.",
+    //     image: flavourfinder,
+    //     github_url: "https://github.com/amancalledkidd/FlavourFinders",
+    //     live_url: "https://flavour-finder.onrender.com/",
+    //     tech_stack: ['React','JavaScript','Node.js', 'Express', 'MongoDB'],
+    //     type: "Full Stack"
+    // },
     {
         id: 3,
         name: "Python Film Manager",
@@ -41,16 +42,16 @@ const Projects: Project[] = [
         tech_stack: ['Python', 'SQLite'],
         type: "Backend"
     },
-    {
-        id: 4,
-        name: "Shooting Array",
-        description: "A game based on the classic fairground game, Shooting Gallery.",
-        image: shootingarray,
-        github_url: "https://github.com/amancalledkidd/fairground-shooting-gallery",
-        live_url: "https://amancalledkidd.github.io/fairground-shooting-gallery/",
-        tech_stack: ['HTML','CSS','JavaScript'],
-        type: "Frontend"
-    },
+    // {
+    //     id: 4,
+    //     name: "Shooting Array",
+    //     description: "A game based on the classic fairground game, Shooting Gallery.",
+    //     image: shootingarray,
+    //     github_url: "https://github.com/amancalledkidd/fairground-shooting-gallery",
+    //     live_url: "https://amancalledkidd.github.io/fairground-shooting-gallery/",
+    //     tech_stack: ['HTML','CSS','JavaScript'],
+    //     type: "Frontend"
+    // },
     {
         id:5,
         name: "Java Hangman",
@@ -61,26 +62,26 @@ const Projects: Project[] = [
         tech_stack: ['Java'],
         type: "Backend"
     },
-    {
-        id:6,
-        name: "Java Snap",
-        description: "A Java application of the card game Snap.",
-        image: javaSnap,
-        github_url: "https://github.com/amancalledkidd/snap",
-        live_url:  "https://github.com/amancalledkidd/snap",
-        tech_stack: ['Java'],
-        type: "Backend"
-    },
-    {
-        id: 7,
-        name: "Full Stack Film Manager",
-        description: "A full stack application for managing a film library.",
-        image: fullStackFilmManager,
-        github_url: "https://github.com/amancalledkidd/movie-manager",
-        live_url: "https://github.com/amancalledkidd/movie-manager",
-        tech_stack: ['React','Java','Spring Boot', 'typeScript', 'Sass', 'SQL'],
-        type: "Full Stack"
-    },
+    // {
+    //     id:6,
+    //     name: "Java Snap",
+    //     description: "A Java application of the card game Snap.",
+    //     image: javaSnap,
+    //     github_url: "https://github.com/amancalledkidd/snap",
+    //     live_url:  "https://github.com/amancalledkidd/snap",
+    //     tech_stack: ['Java'],
+    //     type: "Backend"
+    // },
+    // {
+    //     id: 7,
+    //     name: "Full Stack Film Manager",
+    //     description: "A full stack application for managing a film library.",
+    //     image: fullStackFilmManager,
+    //     github_url: "https://github.com/amancalledkidd/movie-manager",
+    //     live_url: "https://github.com/amancalledkidd/movie-manager",
+    //     tech_stack: ['React','Java','Spring Boot', 'typeScript', 'Sass', 'SQL'],
+    //     type: "Full Stack"
+    // },
     // {
     //     id: 5,
     //     name: "Punk Beer Catalogue",
@@ -101,16 +102,16 @@ const Projects: Project[] = [
     //     tech_stack: ['React','TypeScript','Sass'],
     //     type: "Frontend"
     // },
-    // {
-    //     id: 8,
-    //     name: "Greedy Goblins",
-    //     description: "A landing page for an NFT project.",
-    //     image: greedyGoblins,
-    //     github_url: "https://github.com/amancalledkidd/greedy-goblins",
-    //     live_url: "https://goblinsgreed.com/",
-    //     tech_stack: ['React','TypeScript','Sass'],
-    //     type: "Frontend"
-    // },
+    {
+        id: 8,
+        name: "Greedy Goblins",
+        description: "A landing page for an NFT project.",
+        image: greedyGoblins,
+        github_url: "https://github.com/amancalledkidd/greedy-goblins",
+        live_url: "https://jovial-gumdrop-2da6b5.netlify.app",
+        tech_stack: ['React','TypeScript','Sass'],
+        type: "Frontend"
+    },
     // {
     //     id: 8,
     //     name: "Calculator",
@@ -120,7 +121,17 @@ const Projects: Project[] = [
     //     live_url: "https://amancalledkidd.github.io/ts-calculator/",
     //     tech_stack: ['HTML','CSS','JavaScript'],
     //     type: "Frontend"
-    // }
+    // },
+    {
+        id:5,
+        name: "British Vintage Boxing",
+        description: "A Shopify website for a clothing company",
+        image: javaHangman,
+        github_url: "https://github.com/amancalledkidd/hangman",
+        live_url: "https://www.britishvintageboxing.com/",
+        tech_stack: ['Java'],
+        type: "Backend"
+    },
 
 ];
 
