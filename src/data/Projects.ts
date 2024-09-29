@@ -9,9 +9,30 @@ import pythonfilmmanager from '../assets/images/python film manger1.png'
 import javaHangman from '../assets/images/java hangman 1.png'
 // import javaSnap from '../assets/images/Javasnap 1.png'
 // import fullStackFilmManager from '../assets/images/javafilm 1.png'
-import greedyGoblins from '../assets/images/GreedyGoblins.png'
+import greedyGoblins from '../assets/images/Goblin.png'
+import bvb from '../assets/images/BVB DISTRESSED LOGO.png'
 
 const Projects: Project[] = [
+    {
+        id:9,
+        name: "British Vintage Boxing",
+        description: "A Shopify website for a clothing company",
+        image: bvb,
+        github_url: "https://github.com/amancalledkidd/hangman",
+        live_url: "https://www.britishvintageboxing.com/",
+        tech_stack: ['shopify'],
+        type: "Frontend"
+    },
+    {
+        id: 8,
+        name: "Greedy Goblins",
+        description: "A landing page for an NFT project.",
+        image: greedyGoblins,
+        github_url: "https://github.com/amancalledkidd/greedy-goblins",
+        live_url: "https://jovial-gumdrop-2da6b5.netlify.app",
+        tech_stack: ['React','TypeScript','Sass'],
+        type: "Frontend"
+    },
     {
         id: 1,
         name: "Resource Management System",
@@ -102,16 +123,7 @@ const Projects: Project[] = [
     //     tech_stack: ['React','TypeScript','Sass'],
     //     type: "Frontend"
     // },
-    {
-        id: 8,
-        name: "Greedy Goblins",
-        description: "A landing page for an NFT project.",
-        image: greedyGoblins,
-        github_url: "https://github.com/amancalledkidd/greedy-goblins",
-        live_url: "https://jovial-gumdrop-2da6b5.netlify.app",
-        tech_stack: ['React','TypeScript','Sass'],
-        type: "Frontend"
-    },
+    
     // {
     //     id: 8,
     //     name: "Calculator",
@@ -122,16 +134,7 @@ const Projects: Project[] = [
     //     tech_stack: ['HTML','CSS','JavaScript'],
     //     type: "Frontend"
     // },
-    {
-        id:5,
-        name: "British Vintage Boxing",
-        description: "A Shopify website for a clothing company",
-        image: javaHangman,
-        github_url: "https://github.com/amancalledkidd/hangman",
-        live_url: "https://www.britishvintageboxing.com/",
-        tech_stack: ['Java'],
-        type: "Backend"
-    },
+    
 
 ];
 
